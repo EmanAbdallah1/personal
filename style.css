@@ -1,0 +1,394 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/*start of nav bar*/
+nav{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    text-transform: uppercase;
+
+}
+nav .logo{
+
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+nav .logo i{
+    font-size:40px ;
+    color: cornflowerblue;
+    margin-right: 5px;
+}
+nav .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 20px;
+
+
+}
+nav .nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+nav .nav-bar .active{
+    color: cornflowerblue;
+}
+/*end of nav bar*/
+/*start of header*/
+header{
+    background: #80808024;
+    display: grid;
+    grid-template-columns: 46% 29%;
+    margin-top: 30px;
+    padding-top: 55px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+    padding-bottom: 53px;
+}
+header .header-lef img{
+    width: 100%;
+    border: 10px solid cornflowerblue;
+    margin-top: 20px;
+}
+header p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: gray;
+}
+header h1{
+    font-size: 31px;
+    text-transform: uppercase;
+}
+header button{
+    font-size: 20px;
+    border: none;
+    background: linear-gradient(to right,#0000ff5c,#00bfff6e);
+    padding: 10px 22px;
+    color: white;
+}
+/*end of header*/
+/*start about section*/
+.about{
+    display: grid;
+    grid-template-columns: 33% 43%;
+    margin-top: 60px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 113px;
+    padding-bottom: 20px;
+
+}
+about .about-lef{
+    background: linear-gradient(to top,gray,white);
+    align-items: center;
+}
+.about .img{
+    box-shadow: 1px 1px 55px -43px;
+}
+.about .about-lef img{
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+.about p{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: gray;
+}
+.about h1{
+    font-size: 31px;
+    text-transform: uppercase;
+}
+.about button{
+    font-size: 20px;
+    border: none;
+    background: linear-gradient(to right,#0000ff5c,#00bfff6e);
+    padding: 10px 22px;
+    color: white;
+}
+/*end about section*/
+/*start services section*/
+.serve .container{
+    margin-top: 93px;
+    padding-bottom: 70px;
+}
+.serve .container h2{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.serve .container p{
+    color: gray;
+    width: 59%;
+    display: block;
+    margin: auto;
+}
+.serve .services {
+    display:flex;
+    flex-direction: row;
+justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+
+
+}
+.serve .services div{
+    width: 33%;
+    margin-top:35px;
+}
+.serve .services i{
+    display: block;
+    margin-bottom:10px;
+    font-size: 25px;
+}
+.serve .services p{
+    color: gray;
+    margin-top: 5px;
+}
+
+/*end services section*/
+/*start section of number*/
+.number{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right,#0000ffb3,#00bfff63);
+    padding: 45px;
+    color: white;
+    font-family: cursive;
+    width: 90%;
+    margin: auto;
+
+}
+.number span{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.number p{
+    font-size: 18px;
+    color: white;
+}
+/*start section of number*/
+/*start section of portfolio*/
+.portfolio{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.portfolio h2{
+    font-size: 35px;
+}
+.portfolio p{
+    text-transform: capitalize;
+    color: gray;
+    margin-top: 10px;
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.portfolio .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.portfolio .tabs button{
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 23px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.portfolio .tabs button:focus{
+    color: deepskyblue;
+}
+.portfolio .tabcontent img{
+    width: 100%;
+    height: 250px;
+}
+.portfolio .tabcontent{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.portfolio .bottom{
+    background: #dcdcdc54;
+    padding: 13px;
+    text-transform: capitalize;
+    width: 80%;
+    margin: auto;
+    margin-top: 41px;
+}
+.portfolio h5{
+    color: gray;
+}
+/*end section of portfolio*/
+/*start section of opinion*/
+.type-indstry{
+    padding-top: 70px;
+ padding-bottom: 30px;
+    background: #dcdcdc59;
+}
+.type-indstry h3{
+    text-align: center;
+    color: #545252;
+    margin-bottom: 94px;
+    text-transform: capitalize;
+    font-size: 29px;
+}
+.opinions{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.opinions .opinion{
+    display: grid;
+    grid-template-columns: 17% 60%;
+    grid-gap: 25px;
+    background:white;
+    padding: 18px;
+}
+.opinions .immg img{
+    width: 100%;
+    border-radius: 50%;
+}
+.opinions p{
+    color: gray;
+}
+.opinions span{
+    font-weight: bold;
+}
+/*end section of opinion*/
+/*start section of prices*/
+.prices{
+    padding-top: 95px;
+    padding-bottom: 37px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.prices h2{
+    font-size: 30px;
+}
+.prices p{
+    color: gray;
+    margin-bottom: 60px;
+}
+.prices .price{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    justify-content: space-around;
+    background: #dcdcdc4a;
+    padding-top: 80px;
+    width: 80%;
+    margin: auto;
+}
+.prices .price span{
+    font-weight: bold;
+    font-size: 20px;
+    background: gainsboro;
+    padding: 16px;
+    border-radius: 50%;
+    border: 17px solid #80808059;
+}
+.prices .price h2{
+    margin-top: 50px;
+}
+.prices .price p{
+color: gray;
+border-bottom: 1px solid gray;
+width: 50%;
+margin: auto;
+font-size: 17px;
+margin-bottom: 15px;
+line-height: 27px;
+}
+
+/*end section of prices*/
+/*start of blog section*/
+.blogs{
+    background: #dcdcdc3d;
+    padding-top:50px ;
+    padding-bottom:30px;
+}
+.blogs h2{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.blogs .blog{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 40px;
+}
+.blogs .blog .blog-detale{
+    display: grid;
+    grid-template-columns: 24% 50%;
+    justify-content: flex-start;
+}
+.blogs .blog .blog-detale img{
+    width: 50%;
+    margin-top: 15px;
+}
+.blogs .blog .blog-data{
+    display: grid;
+    grid-template-columns: 38% 50%;
+    border-bottom: 1px solid gray;
+    width: 80%;
+}
+.blogs .blog  p{
+    width: 70%;
+    color: gray;
+}
+/*end of blog section*/
+/*start a section of brands*/
+.brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 80px;
+    color: ghostwhite;
+    flex-wrap: wrap;
+    background: linear-gradient(to right,#0000ff75,#00bfff85);
+    padding: 45px;
+}
+/*end a section of brands*/
+/*start of footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding: 45px;
+    background: #020225;
+    color: #a99e9e;
+}
+footer h3{
+    color: white;
+}
+footer p{
+    width: 70%;
+}
+footer i{
+    margin-left: 10px;
+}
+/*end of footer*/
